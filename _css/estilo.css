@@ -1,13 +1,51 @@
 @charset "UTF-8";
 
 body {
-    background-color: hsla(165, 81%, 93%, .5);
+    background-color: #dddddd;
     color: rgba(0,0,0,1);
+}
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    background-origin: content-box;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.5);
+    padding: 10px;
 }
 
 p {
     text-align: justify; 
     text-indent: 50px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 955px;
+    top: 75px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+
+header#cabecalho h1{
+    font-family: Arial, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: Arial, sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
 }
 
 /* Formatação de Imagens com Legendas */
@@ -49,7 +87,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
+    left: 490px;
 }
 
 nav#menu li {
